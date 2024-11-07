@@ -1,0 +1,3 @@
+[submodule "Firmware_Hydrone"]
+	path = Firmware_Hydrone
+	url = https://github.com/DaviBrinoLima/Firmware_Hydrone.git
