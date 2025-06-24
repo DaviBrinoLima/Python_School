@@ -16,7 +16,7 @@ for key in pessoas:
 
 
 ###########################################################################################################################################################
-pessoas['nome'] = 'Matheus'
+pessoas['nome'].append("Matheus")
 pessoas['peso'] = 76
 
 print(pessoas)
@@ -30,7 +30,7 @@ estado_2 = {'UF': 'Santa Catarina', 'Sigla': 'SC'}
 brasil.append(estado_1)
 brasil.append(estado_2)
 
-print(brasil[1]['UF'])
+print(brasil[1]["Sigla"])
 
 
 estado = {}
