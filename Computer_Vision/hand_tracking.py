@@ -19,9 +19,9 @@ class HandTracking:
         
 
         if self.detect_hand.multi_hand_landmarks:
-            for hand in self.detect_hand.multi_handedness:
+            for hand in self.detect_hand.multi_hand_landmarks:
                 if draw:
-                    self.drawMP.draw_handedness(frame, hand, mp.solutions.hands.HAND_CONNECTIONS)
+                    self.drawMP.draw_landmarks(frame, hand, mp.solutions.hands.HAND_CONNECTIONS)
         
         return frame
     
